@@ -361,3 +361,52 @@ input{
     margin-top: -10px;
     
 }
+/* footer */
+footer{
+    margin-top: 8rem;
+    width: 100%;
+    background: rgba(81, 80, 80, 0.068);;
+}
+.describtion{
+    width: 443px;
+    height: 176px;
+    margin-left: 100px;
+}
+.logo{
+    color: rgb(230, 83, 60);
+    font-size: 4.37rem;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.f-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
+}
+.get-started{
+    width: 181px;
+    height: 172px;
+    margin-left: 120px;
+}
+.g-des{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.t-link{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.43rem;
+    font-weight: 400;
+}
+.fopter-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copy{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+}
