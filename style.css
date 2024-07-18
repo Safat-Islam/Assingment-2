@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    background: #161615;
+}
+
+/* nav section */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3.6rem 11.2rem;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 47px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+nav ul{
+    display: flex;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: rgb(230, 83, 60);
+}
+.home{
+    padding: 10px 20px;
+    background-color:rgb(230, 83, 60);
+    border-radius: 40px;
+    color: white;
+}
+/* hero section */
+.hero-container{
+    display: flex;
+    position: relative;
+}
+.hero-container img{
+    width: 349px;
+    height: 580px;
+    margin-top: 0px;
+}
+.hero-content{
+    width: 599.05px;
+    height: 440px;
+    margin: 0 190px;
+}
+.hero-title{
+    color: white;
+    font-weight: 900;
+    font-size: 4.5rem;
+}
+.hero-description{
+    font-size: 1rem;
+    margin-top: -20px;
+    color: rgba(255, 255, 255, 0.5)
+}
+.btn{
+    padding: 16px 40px;
+    color: white;
+    background-color: rgb(230, 83, 60);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+}
+.btn-1{
+    background-color: #242322;
+    border: 2px solid rgb(255, 255, 255);;
+}
+.box-1{
+    position: absolute;
+    color: white;
+    margin-top: 8%;
+    font-weight: 900;
+    font-size: 2,2rem;
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 80%;
+}
+.box-2{
+    position: absolute;
+    color: white;
+    margin-top: 25%;
+    font-weight: 900;
+    font-size: 2,2rem;
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    margin-left: 59%;
+    
+}
+.box-title{
+    text-align: center;
+}
+.box-descrition{
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: -20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+}
+.icon{
+    color: rgb(230, 83, 60);
+}
+
+/* habbit */
+.change-habbit{
+    margin-top: 8rem;
+}
+.circle-image img{
+    border: 2px solid rgb(77, 76, 76);
+    border-radius: 50%;
+    margin-left: 20px;
+ 
+}
+.circle{
+    width: 231px;
+    height: 274px;
+
+}
+.i-title{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 5px 10px;
+}
+.i-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
+    text-align: center;   
+}
+.habbit{
+    width: 1044px;
+    height: 452px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 35px;
+}
+.h-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.h-describtion{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 14px;
+    margin-top: -1rem;
+    margin-bottom: 6rem;
+}
+/* run */
+
+.run{
+    width: 1060px;
+    height: 371px;
+    margin: 0 auto;
+    background: rgb(53, 52, 52);
+    border-radius: 18px;
+    display: flex;
+}
+.run-content{
+    margin: 2.7rem 0;
+    width: 443px;
+    height: 290px;
+    /* border: 2px solid sandybrown; */
+    /* position: absolute; */
+    
+
+}
+.run-title{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 1rem 3rem;
+}
+.run-describtion{
+    margin: .5rem 3rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    font-size: .9rem;
+}
+.bp{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    padding: .8rem 4rem;
+}.run-img img{
+    width: 366px;
+    height: 312px;
+    margin: 1.9rem;
+    margin-left: 12rem;
+    border-radius: 1.2rem;
+}
